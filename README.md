@@ -10,3 +10,12 @@ Flexbox is an easy way to make complex positioning.
 - You can also play around with the flexbox palyground: https://flexbox.tech/
 
 # 3 Dive deep into JS
+## 3.1 Handle events
+Look at this in depth and try to understand it. Use chatGpt and videos. Don't overdo it. "document.getEementById("anyButtonId").onclick = function(){console.log("Button clicked")}"
+## 3.2 The cool way to code
+- if(1 > 2){console.log("yes")}else{console.log("no")} can be replaced by console.log(1>2?"yes":"no") .
+- if(xxx){yyy} can be replaced by xxx && yyy
+- array.map((something, i), ()=>{console.log(`${i} = `+ something)}) make chatgpt explain this one. I'm lazy
+Your boss likes this way of writing code more. You will too.
+## 3.3 Math
+This part isn't really necessary but it will make smarter, better programmer, better person, better human, better scientist, better friend, better citizen, better at anything + it makes you stand out. Take time 
