@@ -34,4 +34,16 @@ run: `node index.js`
 <br>
 interrupt/stop: `ctrl+c` (like "Cancel")
 
-
+# 5 npm
+npm (Node Package Manager) is a way to install stuff to your project. 
+<br>
+Go to https://www.npmjs.com/ and fina a cool api to use.
+<br>
+A cool example is https://www.npmjs.com/package/say .  Now learn how to use it. It should allow you to use text to speach in nodeJS
+<br>
+Here i must mention that npm works only in nodeJS
+<br>
+To install a library type 
+`npm install packageName` or `npm i packageName`
+<br>
+Ask GPT to explain it a little further
