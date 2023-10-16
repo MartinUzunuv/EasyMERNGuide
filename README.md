@@ -11,11 +11,27 @@ Flexbox is an easy way to make complex positioning.
 
 # 3 Dive deep into JS
 ## 3.1 Handle events
-Look at this in depth and try to understand it. Use chatGpt and videos. Don't overdo it. "document.getEementById("anyButtonId").onclick = function(){console.log("Button clicked")}"
+"document.getEementById("anyButtonId").onclick = function(){console.log("Button clicked")}" Look at this in depth and try to understand it. Use chatGpt and videos. Don't overdo it. 
 ## 3.2 The cool way to code
 - if(1 > 2){console.log("yes")}else{console.log("no")} can be replaced by console.log(1>2?"yes":"no") .
 - if(xxx){yyy} can be replaced by xxx && yyy
-- array.map((something, i), ()=>{console.log(`${i} = `+ something)}) make chatgpt explain this one. I'm lazy
-Your boss likes this way of writing code more. You will too.
+- array.map((something, i), ()=>{console.log(`${i} = `+ something)}) make chatgpt explain this one. I'm lazy.
+- Learn how to use "...". For example newArray = [...oldArray, newElement].
+- Your boss likes this way of writing code more. You will like it too. Trust me here.
 ## 3.3 Math
-This part isn't really necessary but it will make smarter, better programmer, better person, better human, better scientist, better friend, better citizen, better at anything + it makes you stand out. Take time 
+This part isn't really necessary but it will make you smarter, better programmer, better person, better human, better scientist, better friend, better citizen, better at anything + it makes you stand out. Learn how to work with <canvas> and how to draw on it. Canvas is an html element that acts like a painting canvas and you can color it with functions like .fillRect(...) .  Learn how to draw circles with cos and sin: for(let a = 0; a < Math.PI*2; a += Math.PI/20){context.fillRect(100+Math.cos(a)*30,100+Math.cos(a)*30,1,1)}. Make some cool fractals like the tree fractal.
+
+# 4 NodeJS
+NOdeJS is a way for you to run js outside the browser. It will run in the terminal.
+## 4.1 Download
+Go to https://nodejs.org/en and download the latest version. Important: There will be a checkbox for something like "download all required dependencies and something...". Click it! YOU NEED ALL THE DEPENDENCIES! Now wait a lot. sometimes it may require you to press buttons or something but go with it. Also keep in mind that it may take some time and could possibly look like your computer is crashing but it's ok. You will most likely see a blue terminal or something... Just wait patiently.
+## 4.2 Get started
+Create a file called "index.js" or something and just cd to it and type "node index.js" in your terminal. Before you run it add something like "console.log("running")" in it. Now in your terminal you should see "running"
+## 4.3 Paths
+To change directory type "cd folderInTheCurrentFolderName". To go one level above the current directory type "cd.." or "cd ../folderName" or for many "cd ../../name". Just look this up yourselve. 
+## 4.4 Run and interrupt/stop program
+run: `node index.js`
+<br>
+interrupt/stop: `ctrl+c` (like "Cancel")
+
+
